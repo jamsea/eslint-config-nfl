@@ -1,0 +1,47 @@
+{
+  "name": "eslint-config-nfl",
+  "version": "8.0.0",
+  "description": "NFL's ESLint config",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "tests-only": "babel-tape-runner ./test/test-*.js",
+    "test": "parallelshell 'npm run --silent lint' 'npm run --silent tests-only'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nfl/eslint-config"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "nfl"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nfl/eslint-config/issues"
+  },
+  "homepage": "https://github.com/nfl/eslint-config",
+  "devDependencies": {
+    "babel-eslint": "^6.0.2",
+    "babel-tape-runner": "^2.0.1",
+    "conventional-changelog-cli": "^1.1.1",
+    "cz-conventional-changelog": "^1.1.5",
+    "eslint": "^2.8.0",
+    "eslint-plugin-import": "^1.5.0",
+    "eslint-plugin-jsx-a11y": "^0.6.2",
+    "eslint-plugin-mocha": "^2.2.0",
+    "eslint-plugin-react": "^5.0.1",
+    "parallelshell": "^2.0.0",
+    "react": "^15.0.1",
+    "tape": "^4.5.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": ">=6.x",
+    "eslint": ">=2.7.x",
+    "eslint-plugin-jsx-a11y": ">=0.6.x",
+    "eslint-plugin-import": ">=1.4.x",
+    "eslint-plugin-react": ">=5.x"
+  }
+}
