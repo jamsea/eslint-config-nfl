@@ -40,7 +40,6 @@
   "peerDependencies": {
     "babel-eslint": ">=6.x",
     "eslint": ">=2.7.x",
-    "eslint-plugin-jsx-a11y": ">=0.6.x",
     "eslint-plugin-import": ">=1.4.x",
     "eslint-plugin-react": ">=5.x"
   },
