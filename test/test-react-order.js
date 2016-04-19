@@ -34,7 +34,7 @@ ${body}
 test("validate react prop order", t => {
     t.test("make sure our eslintrc has React and JSX linting dependencies", t => {
         t.plan(1);
-        t.deepEqual(reactRules.plugins, ["jsx-a11y", "react"]);
+        t.deepEqual(reactRules.plugins, ["react"]);
     });
 
     t.test("passes a good component", t => {
