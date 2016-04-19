@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nfl",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "NFL's ESLint config",
   "main": "index.js",
   "scripts": {
